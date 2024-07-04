@@ -1,0 +1,21 @@
+export type Meal = {
+  id: string;
+  user_id: string;
+  username: string;
+  name: string;
+  energy: number;
+  fat: number;
+  saturates: number;
+  carbohydrate: number;
+  sugars: number;
+  fibre: number;
+  protein: number;
+  salt: number;
+  food_count: number;
+  created_at: string;
+  updated_at: string;
+  created_by: string;
+  updated_by: string;
+  created_by_id: string;
+  updated_by_id: string;
+};
